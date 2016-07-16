@@ -1,4 +1,4 @@
-﻿require 'ffi'
+﻿#require 'ffi'
 require 'colorize'
 require "watir-webdriver"
 
