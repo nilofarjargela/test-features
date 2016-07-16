@@ -5,7 +5,7 @@
 #BROWSER = Watir::Browser.new
 
 Given /^Peddle Login Page$/ do
-  #BROWSER.goto("https://google.co.in")
+  BROWSER.goto("https://google.co.in")
   puts 1
   path = File.dirname(__FILE__)
   name_log = "PeddleSellerLogin"
